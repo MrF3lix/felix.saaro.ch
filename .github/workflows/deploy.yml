@@ -1,0 +1,12 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: ZEIT Now Deployment
+      uses: amondnet/now-deployment@v1
+      with:
+        zeit-token: NZXdWY7CeXsxzQl54OaB1jaW
