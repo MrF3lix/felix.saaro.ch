@@ -1,0 +1,45 @@
+{
+    "title": "— Felix Saaro is a debater, inventor and software developer that is interessted in people & technology.",
+    "items": [
+        {
+            "id": 0,
+            "year": "2020",
+            "title": "A new beginning!",
+            "content": "After almost 2 years in the Netherlands I'm back in Switzerland working on my further education.",
+            "image": {
+                "src": "/content/images/bg_austira.jpg",
+                "alt": "View of the ski lift in St. Jakob in Defereggen."
+            }
+        },
+        {
+            "id": 1,
+            "year": "2019",
+            "title": "Full-Stack Developer",
+            "content": "Since the end of 2018 I am working once again as a Full-Stack Developer. This time with a different technology stack and more responsibility than ever.",
+            "image": {
+                "src": "/content/images/bg_sweden.jpg",
+                "alt": "Rocky island south of Stockholm."
+            }
+        },
+        {
+            "id": 2,
+            "year": "2018",
+            "title": "Front-End Developer",
+            "content": "This year was probably the most exciting yet. In January I moved from Switzerland to Amsterdam and started a new job with a totally different focus than what i did before. Goodbye .Net and hello JavaScript!",
+            "image": {
+                "src": "/Content/images/bg_amsterdam.jpeg",
+                "alt": "Tiny houses on a canal in Amsterdam."
+            }
+        },
+        {
+            "id": 3,
+            "year": "2017",
+            "title": "Front-End Developer",
+            "content": "After 4 years I finished my traineeship to become a Full-Stack Developer. I continued working at the company I dit the traineeship at. In September of that year I embarked in on of my most exciting and challenging adventures yet, a 3 months trip throught the islands and mountains of south-east Asia.",
+            "image": {
+                "src": "/Content/images/DSCF1238.jpg",
+                "alt": "A small fishing village on Koh Rong in Cambodia."
+            }
+        }
+    ]
+}
