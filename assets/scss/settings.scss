@@ -10,5 +10,29 @@ $primary: #FFFA00;
 $dark-primary: #FFCE0D;
 $secondary: darkblue;
 
-$breakpoint-tablet: 860px;
-$breakpoint-mobile: 680px;
+
+$breakpoints: (
+  'small':  ( min-width:  767px ),
+  'medium': ( min-width: 1024px ),
+  'large':  ( min-width: 1200px )
+) !default;
+
+/// Mixin to manage responsive breakpoints
+/// @author Hugo Giraudel
+/// @param {String} $breakpoint - Breakpoint name
+/// @require $breakpoints
+@mixin breakpoint($breakpoint) {
+    // If the key exists in the map
+    @if map-has-key($breakpoints, $breakpoint) {
+      // Prints a media query based on the value
+      @media #{inspect(map-get($breakpoints, $breakpoint))} {
+        @content;
+      }
+    }
+   
+    // If the key doesn't exist in the map
+    @else {
+      @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+          + "Available breakpoints are: #{map-keys($breakpoints)}.";
+    }
+  }

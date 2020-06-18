@@ -4,10 +4,19 @@ main {
     width: 100%;
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 25vw 25vw 50vw;
-    grid-template-rows: 50vh 50vh;
-}
+    grid-template-columns: 100vw;
+    grid-template-rows: 100vh;
 
+    @include breakpoint('small') {
+        grid-template-columns: 100vw;
+        grid-template-rows: 50vh 50vh;
+    }
+
+    @include breakpoint('medium') {
+        grid-template-columns: 25vw 25vw 50vw;
+        grid-template-rows: 50vh 50vh;
+    }
+}
 
 .title__container {
     width: 100%;
