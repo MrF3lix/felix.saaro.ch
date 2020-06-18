@@ -1,5 +1,5 @@
 {
-    "title": "— Felix Saaro is a debater, inventor and software developer that is interessted in people & technology.",
+    "title": "— Felix Saaro is a debater,   and software developer who is interested in people & technology.",
     "items": [
         {
             "id": 0,
@@ -7,8 +7,8 @@
             "title": "A new beginning!",
             "content": "After almost 2 years in the Netherlands I'm back in Switzerland working on my further education.",
             "image": {
-                "src": "/content/images/bg_austira.jpg",
-                "alt": "View of the ski lift in St. Jakob in Defereggen."
+                "src": "/content/images/bg_switzerland.jpg",
+                "alt": "Süderen, Wachseldorn, Thun"
             }
         },
         {
@@ -27,7 +27,7 @@
             "title": "Front-End Developer",
             "content": "This year was probably the most exciting yet. In January I moved from Switzerland to Amsterdam and started a new job with a totally different focus than what i did before. Goodbye .Net and hello JavaScript!",
             "image": {
-                "src": "/Content/images/bg_amsterdam.jpeg",
+                "src": "/Content/images/bg_amsterdam.jpg",
                 "alt": "Tiny houses on a canal in Amsterdam."
             }
         },

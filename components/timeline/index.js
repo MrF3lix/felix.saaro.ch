@@ -31,6 +31,7 @@ const TimeLine = () => {
 
     const bindEvents = () => {
         window.addEventListener('wheel', onScroll);
+        window.addEventListener('wheel', onScroll);
     };
 
     const unBindEvents = () => {
@@ -49,9 +50,8 @@ const TimeLine = () => {
         if (activeItem < 0 || activeItem >= data.items.length || activeItem === selectedItemId) return;
 
         setIsAnimating(true);
-
-        setSelectedId(activeItem);
         setDirection(direction);
+        setSelectedId(activeItem);
 
         setTimeout(() => {
             setIsAnimating(false);
