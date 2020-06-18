@@ -27,7 +27,7 @@
             "title": "Front-End Developer",
             "content": "This year was probably the most exciting yet. In January I moved from Switzerland to Amsterdam and started a new job with a totally different focus than what i did before. Goodbye .Net and hello JavaScript!",
             "image": {
-                "src": "/Content/images/bg_amsterdam.jpg",
+                "src": "/content/images/bg_amsterdam.jpg",
                 "alt": "Tiny houses on a canal in Amsterdam."
             }
         },
@@ -37,7 +37,7 @@
             "title": "Front-End Developer",
             "content": "After 4 years I finished my traineeship to become a Full-Stack Developer. I continued working at the company I dit the traineeship at. In September of that year I embarked in on of my most exciting and challenging adventures yet, a 3 months trip throught the islands and mountains of south-east Asia.",
             "image": {
-                "src": "/Content/images/DSCF1238.jpg",
+                "src": "/content/images/DSCF1238.jpg",
                 "alt": "A small fishing village on Koh Rong in Cambodia."
             }
         }
