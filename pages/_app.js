@@ -13,8 +13,8 @@ const CustomApp = ({ Component, pageProps }) => {
                 <meta property="title" content="Felix Saaro" />
                 <meta property="og:title" content="Felix Saaro" />
 
-                <meta property="description" content="Felix Saaro is a debater, inventor and software developer who is interested in people & technology. Since the end of 2018 he is working once again as a Full-Stack Developer. This time with different technologies and more responsibility than ever." />
-                <meta property="og:description" content="Felix Saaro is a debater, inventor and software developer who is intereysted in people & technology. Since the end of 2018 he is working once again as a Full-Stack Developer. This time with different technologies and more responsibility than ever." />
+                <meta property="description" content="Felix Saaro is a debater, software developer, and brewer who is interested in technology & food." />
+                <meta property="og:description" content="Felix Saaro is a debater, software developer, and brewer who is interested in technology & food." />
                 
                 <meta property="og:type" content="website" />
                 <meta property="url" content="https://felix.saaro.ch" />

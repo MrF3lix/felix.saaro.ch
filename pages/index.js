@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import TimeLine from '../components/timeline/index';
+import { Simple } from '../components/simple';
 
 const Home = () => (
   <>
@@ -8,7 +8,7 @@ const Home = () => (
       <title>Felix Saaro</title>
     </Head>
 
-    <TimeLine />
+    <Simple />
   </>
 );
 

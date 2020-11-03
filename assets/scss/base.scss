@@ -19,11 +19,21 @@ html {
 }
 
 h1 {
-    font-size: 34px;
-    line-height: 41px;
+    font-size: 24px;
+    line-height: 28px;
     user-select: none;
     margin: 10px 0;
     font-weight: 700;
+
+    @include breakpoint('small') {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    @include breakpoint('medium') {
+        font-size: 34px;
+        line-height: 41px;
+    }
 }
 
 h2 {
