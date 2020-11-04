@@ -3,6 +3,7 @@ import { FelixLogo } from './logo/felix';
 import { GitHubLogo } from './logo/github';
 import { InstagramLogo } from './logo/instagram';
 import { LinkedInLogo } from './logo/linkedin';
+import { MailLogo } from './logo/mail';
 import './simple-styles.scss';
 
 export const Simple = () => {
@@ -24,13 +25,17 @@ export const Simple = () => {
                         <LinkedInLogo />
                         LinkedIn
                     </a>
+                    <a className="link link--external" href="https://www.instagram.com/felixsaaro/" target="_blank" rel="noopener noreferrer">
+                        <InstagramLogo />
+                        Instagram
+                    </a>
                     <a className="link link--external" href="/content/cv/CV_Felix-Saaro_v3.0.0.pdf" target="_blank" rel="noopener noreferrer">
                         <FelixLogo />
                         View my CV
                     </a>
-                    <a className="link link--external" href="https://www.instagram.com/felixsaaro/" target="_blank" rel="noopener noreferrer">
-                        <InstagramLogo />
-                        Instagram
+                    <a className="link link--external" href="mailto:felix@saaro.ch">
+                        <MailLogo />
+                        Contact me
                     </a>
                 </div>
             </div>

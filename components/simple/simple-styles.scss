@@ -44,8 +44,7 @@ main {
 
     .inner {
         display: flex;
-        flex-direction: column;
-        ;
+        flex-wrap: wrap;
     }
 }
 
@@ -58,8 +57,11 @@ main {
     color: $dark;
     text-decoration: underline;
 
+    width: 50%;
+
     @include breakpoint('small') {
         font-size: 28px;
+        width: 100%;
     }
 
     @include breakpoint('medium') {
