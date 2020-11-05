@@ -34,6 +34,16 @@ h1 {
         font-size: 34px;
         line-height: 41px;
     }
+
+    @include breakpoint('large') {
+        font-size: 36px;
+        line-height: 41px;
+    }
+
+    @include breakpoint('x-large') {
+        font-size: 50px;
+        line-height: 56px;
+    }
 }
 
 h2 {
