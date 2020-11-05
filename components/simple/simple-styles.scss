@@ -35,6 +35,11 @@ main {
         grid-row: 2 / 2;
 
         background: $dark-primary;
+        justify-content: flex-start;
+
+        @include breakpoint('small') {
+            justify-content: center;
+        }
 
         @include breakpoint('medium') {
             grid-column: 2 / 2;
