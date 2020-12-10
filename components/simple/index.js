@@ -12,7 +12,7 @@ export const Simple = () => {
     return (
         <main>
             <div className="container container--left">
-                <img className="profile__picture" src="/content/images/felix-2.png" alt="Felix Saaro" />
+                <img className="profile__picture" src="/content/images/felix-3.png" alt="Felix Saaro" />
                 <h1>— Felix Saaro is a debater, software developer, and brewer who is interested in technology & food.</h1>
             </div>
             <div className="container container--right">
