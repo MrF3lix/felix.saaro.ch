@@ -1,7 +1,14 @@
 {
     "name": "felix.saaro.ch",
-    "version": "0.1.0",
-    "private": true,
+    "version": "1.0.0",
+	"license": "MIT",
+	"author": "Felix Saaro",
+	"icon": "img/felix-saaro-logo.png",
+	"homepage": "https://felix.saaro.ch",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MrF3lix/mdtex.git"
+	},
     "scripts": {
         "dev": "next dev",
         "build": "next build",
