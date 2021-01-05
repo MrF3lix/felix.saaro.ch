@@ -29,7 +29,11 @@ export const Simple = () => {
                         <InstagramLogo />
                         Instagram
                     </a>
-                    <a className="link link--external" href="/content/cv/CV_Felix-Saaro_v3.0.0.pdf" target="_blank" rel="noopener noreferrer">
+                    {/* <a className="link link--external" href="/content/cv/CV_Felix-Saaro_v3.0.0.pdf" target="_blank" rel="noopener noreferrer">
+                        <FelixLogo />
+                        View my CV
+                    </a> */}
+                    <a className="link link--external" href="https://read.cv/felixsaaro" target="_blank" rel="noopener noreferrer">
                         <FelixLogo />
                         View my CV
                     </a>
