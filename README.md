@@ -1,6 +1,7 @@
 # Felix Saaro
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/MrF3lix/felix.saaro.ch)
+![Working](https://img.shields.io/badge/Working-yes-success)
 ![Open for opportunities](https://img.shields.io/badge/Open%20for%20opportunities%3F-not%20now-red)
 
 ![Logo](https://raw.githubusercontent.com/MrF3lix/felix.saaro.ch/master/img/felix-saaro-logo.png)
