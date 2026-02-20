@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felix Saaro</title>
+
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        * {
+            font-family: "helvetica neue", sans-serif;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            color: #0f0f0f
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            background-color: #fbfbfb;
+        }
+
+        h2 {
+            font-size: 34px;
+            line-height: 41px;
+            font-weight: 700;
+            margin: 10px 0px;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px 5vw;
+        }
+
+        .inner {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            gap: 32px;
+            max-height: 800px;
+        }
+
+        .inner img {
+            border-radius: 50%;
+        }
+
+        .yellow {
+            background-color: #ffce0d;
+        }
+
+        li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 48px;
+            line-height: 72px;
+            font-weight: 400;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        a:hover, a:active, a:focus {
+            text-decoration: underline;
+            border: none;
+            box-shadow: none;
+            outline: none;
+        }
+
+
+        @media all and (max-width: 900px) {
+            body {
+                flex-direction: column;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="inner">
+            <img src="./felix.jpg" alt="Portrait Image of Felix"/> 
+            <h2>— Felix is a Software Engineer interested in Evaluation, Swiss&nbsp;German TTS, and Event&#x2011;Based&nbsp;Vision</h2>
+        </div>
+    </div>
+
+    <div class="container yellow">
+        <ul>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/MrF3lix" alt="Link to Felix's GitHub Profile">GitHub</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/felix-saaro/" alt="Link to Felix's LinkedIn Profile">LinkedIn</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://www.zhaw.ch/de/ueber-uns/person/saaf" alt="Link to Felix's current Employer">Current Employment</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="/projects" alt="Link to Felix's Projects">View my Projects</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="/cv_felix-saaro.pdf" alt="Link to Felix's CV">Request my CV</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="mailto:felix@saaro.ch" alt="Link to Felix's Projects">Contact Me</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
